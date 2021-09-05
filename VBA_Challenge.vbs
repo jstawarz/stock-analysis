@@ -45,9 +45,9 @@ Sub AllStocksAnalysisRefactored()
     
     '1b) Create three output arrays
     
-        ReDim tickerVolumes(12) As Long
-        ReDim tickerStartingPrices(12) As Single
-        ReDim tickerEndingPrices(12) As Single
+        Dim tickerVolumes(12) As Long
+        Dim tickerStartingPrices(12) As Single
+        Dim tickerEndingPrices(12) As Single
         
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
          For i = 0 To 11
