@@ -20,25 +20,25 @@ accomplish its mission of making the code more efficient.
 Based on the analysis, 2017 proved to be a profitable year for many green stocks. Of the 12 stocks analyzed, 11 provided net returns to their
 sharholders, with DQ, SEDG, and ENPH leading the pack with 199.4%, 184.5% and 129.5% returns respectively. 
 
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/AllStocks_2017.PNG)
+![This is an image](/jstawarz/stock-analysis/blob/main/Resources/AllStocks_2017.PNG)
 
 In comparison, 2018 was a much more challenging year for green stocks with only 2 of the stocks yielding positive returns. They were RUN,
 with a 84.0% return, and ENPH with a 81.9% return.
 
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/AllStocks_2018.PNG)
+![This is an image](https://github.com/jstawarz/stock-analysis/blob/main/Resources/AllStocks_2017.PNG)
 
 ### Refactored Code
 
 With both years, we can demonstrate an overall success in refactoring the Stocks analysis macro. Originally, the code for the 2017 analysis ran
 in 0.898 seconds, and in 0.883 seconds for the 2018 analysis. 
 
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/Original_2017.PNG)
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/Original_2018.PNG)
+![This is an image](/jstawarz/stock-analysis/blob/main/Resources/Original_2017.PNG)
+![This is an image](/jstawarz/stock-analysis/blob/main/Resources/Original_2018.PNG)
 
 Post-refactoring, the macro for 2017 ran in 0.219 seconds and for 2018 ran in 0.172 seconds.
 
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/VBA_Challenge_2017.PNG)
-![This is an image](/jstawarz/stock-analysis/tree/main/Resources/VBA_Challenge_2018.PNG)
+![This is an image](/jstawarz/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+![This is an image](/jstawarz/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 
 The main difference in the coding done for each analysis is that the refactored code utilizes a new variable, tickerIndex, which allows for
